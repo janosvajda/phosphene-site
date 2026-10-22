@@ -64,3 +64,7 @@ described here with an updated effective date.
 
 For privacy questions, [open an issue on GitHub](https://github.com/janosvajda/phosphene-site/issues).
 You can ask a general question without attaching personal information.
+
+---
+
+© 2026 Jan Vajda. All rights reserved.

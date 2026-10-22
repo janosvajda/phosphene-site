@@ -23,3 +23,7 @@ Include your macOS version, Mac model, app version, and reproduction steps.
 Do not post private audio, recordings, or other sensitive information.
 
 Read the [privacy policy]({{ "/privacy/" | relative_url }}) for details about local audio processing.
+
+---
+
+© 2026 Jan Vajda. All rights reserved.
