@@ -1,6 +1,6 @@
 # Phosphene Help
 
-Online: https://janosvajda.github.io/phosphene-site/support
+Online: <https://janosvajda.github.io/phosphene-site/support>
 
 Phosphene turns the sound your Mac plays into visuals that move with the music.
 It is free, with no account, advertising or tracking.
@@ -126,7 +126,7 @@ Phosphene saved, quit it and delete the files shown by Open Settings Folder.
 ## Getting help
 
 Report a problem or ask a question at
-https://github.com/janosvajda/phosphene-site/issues
+<https://github.com/janosvajda/phosphene-site/issues>
 (in the app: Help → Report a Problem…).
 
 Please include your macOS version, your Mac model, the Phosphene version
@@ -137,7 +137,11 @@ private.
 ## Privacy
 
 Phosphene analyses sound only on your Mac and never saves or sends it. Read
-the full privacy policy at https://janosvajda.github.io/phosphene-site/privacy
+the full privacy policy at <https://janosvajda.github.io/phosphene-site/privacy>
 or, offline, in Help → Privacy Policy…
 
-More about Phosphene: https://janosvajda.github.io/phosphene-site/
+More about Phosphene: <https://janosvajda.github.io/phosphene-site/>
+
+---
+
+© 2026 Jan Vajda. All rights reserved.
