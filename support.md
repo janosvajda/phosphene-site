@@ -1,3 +1,8 @@
+---
+title: Phosphene support
+permalink: /support/
+---
+
 # Phosphene Help
 
 Online: <https://janosvajda.github.io/phosphene-site/support>
