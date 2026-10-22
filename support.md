@@ -7,7 +7,7 @@ It is free, with no account, advertising or tracking.
 
 ## What you need
 
-- macOS 14.2 or newer
+macOS 14.2 or newer.
 
 ## Getting started
 
@@ -41,8 +41,21 @@ left edge of the window.
 - All Visuals checks every visual, or clears them all if all are checked.
 - If nothing is checked, Phosphene shows only the listening line.
 
-To keep one visual on screen, use View → Lock Visual (L). A lock symbol
-appears in the window title while it is locked.
+## Locking a visual
+
+Normally the visuals change by themselves. To keep the one on screen, press L
+or choose View → Lock Visual.
+
+- While locked, the visual stays until you unlock it.
+- Next Visual (Space) still works: it moves to another visual, and the lock
+  stays on the new one. Clicking a name in the visual list does the same.
+- "🔒 Locked" appears briefly in the top-right corner, and a padlock shows in
+  the window title, in the visual list and next to the locked visual's name.
+- To unlock, press L again, choose View → Unlock Visual, or click the
+  "🔒 Locked" badge.
+- The lock is remembered: when you open Phosphene again, it starts with the
+  same visual as soon as music plays (if it is still checked in the visual
+  list).
 
 ## Choosing what Phosphene listens to
 
@@ -50,7 +63,12 @@ By default Phosphene hears every app. Use the Config menu to change that:
 
 - All Apps: listen to everything.
 - An app's name: listen only to that app, for example your music player, so a
-  video or a call elsewhere does not move the visuals. If the app is not
+  video or a call elsewhere does not move the visuals. The menu lists only
+  apps that use sound: under Playing Now those playing at this moment, under
+  Other Apps with Sound the ones that are quiet right now. Apps that never
+  play sound, such as Finder or a terminal, are not listed. An app that has
+  not played anything since it opened appears once it starts playing; until
+  then, choose All Apps. Your chosen app stays in the list, and if it is not
   running, Phosphene waits and starts listening when it opens.
 - Pause Listening: stop listening until you choose it again.
 - Demo: play built-in synthesized music, without listening to your Mac.
