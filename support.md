@@ -1,6 +1,6 @@
 # Phosphene Help
 
-Online: https://janosvajda.github.io/phosphene-site/support/
+Online: https://janosvajda.github.io/phosphene-site/support
 
 Phosphene turns the sound your Mac plays into visuals that move with the music.
 It is free, with no account, advertising or tracking.
@@ -8,7 +8,6 @@ It is free, with no account, advertising or tracking.
 ## What you need
 
 - macOS 14.2 or newer
-- A Mac with Metal graphics (every Mac that runs macOS 14.2 has it)
 
 ## Getting started
 
@@ -120,7 +119,7 @@ private.
 ## Privacy
 
 Phosphene analyses sound only on your Mac and never saves or sends it. Read
-the full privacy policy at https://janosvajda.github.io/phosphene-site/privacy/
+the full privacy policy at https://janosvajda.github.io/phosphene-site/privacy
 or, offline, in Help → Privacy Policy…
 
 More about Phosphene: https://janosvajda.github.io/phosphene-site/
