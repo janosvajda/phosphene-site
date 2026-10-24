@@ -39,10 +39,7 @@ Requires a Mac with Apple silicon and macOS 14.2 or newer.
   <a href="{{ "/assets/screenshot-starburst.jpg" | relative_url }}"><img src="{{ "/assets/screenshot-starburst.jpg" | relative_url }}" alt="A starburst of blue and violet light around a glowing core" loading="lazy" style="width: 100%; aspect-ratio: 16 / 10; object-fit: cover; border-radius: 6px; display: block;"></a>
 </div>
 
-## About me
-
-I'm Jan Vajda, a fine artist and software engineer. See more of my work at
-[janosvajda.com](https://janosvajda.com/).
+## Support & privacy
 
 - [Support]({{ "/support/" | relative_url }})
 - [Privacy policy]({{ "/privacy/" | relative_url }})
