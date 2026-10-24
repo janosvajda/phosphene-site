@@ -1,16 +1,13 @@
----
-title: Phosphene support & help
-permalink: /support/
----
+# Phosphene Help
 
-# Phosphene Help and Support
+Online: <https://janosvajda.github.io/phosphene-site/support>
 
 Phosphene turns the sound your Mac plays into visuals that move with the music.
 It is free, with no account, advertising or tracking.
 
 ## What you need
 
-macOS 14.2 or newer.
+A Mac with Apple silicon and macOS 14.2 or newer.
 
 ## Getting started
 
@@ -38,9 +35,10 @@ Every action is also in the menus.
 ## Choosing visuals
 
 Open the visual list with View → Show Visuals (⌘B), or move the pointer to the
-left edge of the window. It stays while the pointer is over it or while you
-use it with the keyboard (Tab, arrows, Space), and slides away by itself a few
-seconds after. Esc closes it at once.
+left edge of the window. It stays while the pointer is over it, and slides
+away by itself a few seconds after. Esc closes it at once. With Keyboard
+navigation turned on (System Settings → Keyboard) or VoiceOver, ⌘B also puts
+the keyboard in it: Tab moves through the list and Space ticks a box.
 
 - The checkboxes choose which visuals take turns.
 - Click a name to show that visual right away, even if it is unchecked.
@@ -119,8 +117,8 @@ call pausing off in Settings (Pause during calls).
 
 ## Settings
 
-Open Phosphene → Settings… (⌘,). Every setting is a choice from a list, with
-a short explanation under it. Changes apply when you click Save.
+Open Phosphene → Settings… (⌘,). Each setting is a choice from a list or a
+checkbox, with a short explanation under it. Changes apply when you click Save.
 
 - Visual quality: how sharp the picture is (Low, Standard, High or Very High).
   Lower is lighter on older Macs and on the battery.
@@ -152,6 +150,10 @@ The visuals do not react to the music:
 4. Open System Settings → Privacy & Security → Screen & System Audio Recording,
    and make sure Phosphene is allowed under System Audio Recording Only.
    Quit and reopen Phosphene after allowing it.
+
+The window title says "Silent": the app plays, but only silence arrives. It
+may be muted (a muted video, or its volume at zero); unmute it. Otherwise,
+allow Phosphene as in step 4 above, then choose Audio → Retry Listening.
 
 Some protected media, such as certain streaming video, cannot be heard by any
 app. That is a macOS limit, not a fault in Phosphene.
