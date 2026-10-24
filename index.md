@@ -14,8 +14,6 @@ from every app at once, or just one supported app on its own:
 - Browsers (for YouTube, SoundCloud, Bandcamp and other players on the web):
   Safari, Google Chrome, Firefox
 
-Sound from any other app is heard with All Sound.
-
 Phosphene travels through 31 visual plugins, from 3D worlds and particle
 storms to line art. One plugin invents its own images and keeps evolving them
 with the music, so what you see never repeats.
