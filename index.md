@@ -36,8 +36,13 @@ Requires a Mac with Apple silicon and macOS 14.2 or newer.
   <a href="{{ "/assets/screenshot-cat-and-alien-dancing.jpg" | relative_url }}"><img src="{{ "/assets/screenshot-cat-and-alien-dancing.jpg" | relative_url }}" alt="A hand-drawn cat and alien dancing under a spectrum" loading="lazy" style="width: 100%; aspect-ratio: 16 / 10; object-fit: cover; border-radius: 6px; display: block;"></a>
   <a href="{{ "/assets/screenshot-rose-curve-visual-list.jpg" | relative_url }}"><img src="{{ "/assets/screenshot-rose-curve-visual-list.jpg" | relative_url }}" alt="The Rose Curve visual with the visual list open" loading="lazy" style="width: 100%; aspect-ratio: 16 / 10; object-fit: cover; border-radius: 6px; display: block;"></a>
   <a href="{{ "/assets/screenshot-line-tunnel.jpg" | relative_url }}"><img src="{{ "/assets/screenshot-line-tunnel.jpg" | relative_url }}" alt="A tunnel of trembling lines" loading="lazy" style="width: 100%; aspect-ratio: 16 / 10; object-fit: cover; border-radius: 6px; display: block;"></a>
-  <a href="{{ "/assets/screenshot-cat-and-alien.jpg" | relative_url }}"><img src="{{ "/assets/screenshot-cat-and-alien.jpg" | relative_url }}" alt="The cat and the alien reacting to the beat" loading="lazy" style="width: 100%; aspect-ratio: 16 / 10; object-fit: cover; border-radius: 6px; display: block;"></a>
+  <a href="{{ "/assets/screenshot-starburst.jpg" | relative_url }}"><img src="{{ "/assets/screenshot-starburst.jpg" | relative_url }}" alt="A starburst of blue and violet light around a glowing core" loading="lazy" style="width: 100%; aspect-ratio: 16 / 10; object-fit: cover; border-radius: 6px; display: block;"></a>
 </div>
+
+## About me
+
+I'm Jan Vajda, a fine artist and software engineer. See more of my work at
+[janosvajda.com](https://janosvajda.com/).
 
 - [Support]({{ "/support/" | relative_url }})
 - [Privacy policy]({{ "/privacy/" | relative_url }})
