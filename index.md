@@ -142,4 +142,4 @@ The first version, on the Mac App Store.
   </div>
 </div>
 
-<p class="site-footer">© 2026 Jan Vajda · I'm also a painter: you can see my art at <a href="https://janosvajda.com" target="_blank" rel="noopener">janosvajda.com</a></p>
+<p class="site-footer">© 2026 Jan Vajda · You can see my paintings, drawings, and other artwork at <a href="https://janosvajda.com" target="_blank" rel="noopener">janosvajda.com</a></p>
