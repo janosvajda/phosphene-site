@@ -1,27 +1,16 @@
 # Phosphene
 
-Phosphene listens to the sound your Mac plays and turns it into an endless
-stream of visuals that move with the music in real time. It can hear all sound
-from every app at once, or just one supported app on its own:
+The website for Phosphene, a free music visualiser for the Mac: the home page,
+[help](support.md) and the [privacy policy](privacy.md). It's published with
+GitHub Pages at <https://janosvajda.github.io/phosphene-site/>.
 
-- Music players: Apple Music, Spotify, TIDAL, Deezer, Amazon Music, VLC
-- Browsers (for YouTube, SoundCloud, Bandcamp and other players on the web):
-  Safari, Google Chrome, Firefox
+Phosphene draws along with whatever your Mac is playing. It has 35 visuals,
+listens only on your Mac, and has no account, ads or tracking. It can hear all
+sound, or just one app: Apple Music, Spotify, TIDAL, Deezer, Amazon Music, VLC,
+Safari, Chrome or Firefox.
 
-Sound from any other app is heard with All Sound.
-
-Phosphene travels through 31 visual plugins, from 3D worlds and particle
-storms to line art. One plugin invents its own images and keeps evolving them
-with the music, so what you see never repeats.
-
-- **Private:** sound is analysed only on your Mac and is never saved or sent
-  anywhere. Phosphene never records your screen or microphone, and has no
-  account, advertising or tracking.
-- **Lightweight:** a small native app that runs quietly next to your music.
-  Lower the visual quality or frame rate in Settings to save power on older
-  Macs or on battery.
-
-This repository hosts the app's public [support](support.md) and
-[privacy policy](privacy.md) pages.
+The app opens <https://janosvajda.github.io/phosphene-site/support> and
+<https://janosvajda.github.io/phosphene-site/privacy>, so the pages' permalinks
+(`/support/` and `/privacy/`) must stay as they are.
 
 © 2026 Jan Vajda. All rights reserved.

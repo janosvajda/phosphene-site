@@ -1,0 +1,239 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+// Phosphene: a dark page, like the app, with the theme's layout kept.
+
+:root {
+  --bg: #0b0e13;
+  --panel: #141a22;
+  --line: #243040;
+  --text: #dfe6ee;
+  --muted: #95a3b3;
+  --accent: #8fd3c8;
+  --accent-2: #b9a4ff;
+}
+
+html,
+body {
+  background: var(--bg);
+}
+
+body {
+  color: var(--text);
+}
+
+.markdown-body {
+  color: var(--text);
+  max-width: 980px;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.65;
+
+  h1,
+  h2,
+  h3 {
+    color: #fff;
+    border-bottom-color: var(--line);
+  }
+
+  a {
+    color: var(--accent);
+  }
+
+  a:hover {
+    color: #fff;
+  }
+
+  hr {
+    background-color: var(--line);
+  }
+
+  code {
+    background: var(--panel);
+    color: var(--text);
+  }
+
+  blockquote {
+    color: var(--muted);
+    border-left-color: var(--line);
+  }
+
+  table tr {
+    background: transparent;
+    border-top-color: var(--line);
+  }
+
+  table td,
+  table th {
+    border-color: var(--line);
+  }
+
+  img {
+    background: transparent;
+  }
+}
+
+// Home page
+
+.hero {
+  text-align: center;
+  padding: 24px 0 8px;
+}
+
+.hero .icon {
+  width: 112px;
+  height: 112px;
+  filter: drop-shadow(0 10px 30px rgba(143, 211, 200, 0.25));
+}
+
+.markdown-body .hero h1 {
+  font-size: 44px;
+  margin: 12px 0 0;
+  border: 0;
+}
+
+.hero .tagline {
+  font-size: 20px;
+  color: var(--muted);
+  margin: 6px 0 16px;
+}
+
+.hero .facts {
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.buttons {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 18px 0 8px;
+}
+
+.markdown-body .button {
+  display: inline-block;
+  padding: 9px 18px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: var(--panel);
+  color: var(--text);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.markdown-body .button:hover {
+  border-color: var(--accent);
+  color: #fff;
+  text-decoration: none;
+}
+
+.markdown-body .button.primary {
+  background: linear-gradient(135deg, #2e6f68, #5b4aa8);
+  border-color: transparent;
+  color: #fff;
+}
+
+.shot {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  background: #000;
+}
+
+.hero-shot {
+  margin: 28px 0 8px;
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.55);
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 14px;
+  margin: 16px 0;
+}
+
+.card {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 16px 18px;
+}
+
+.card h3 {
+  margin: 0 0 6px;
+  font-size: 17px;
+  border: 0;
+}
+
+.card p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.feature {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 22px;
+  align-items: center;
+  margin: 22px 0;
+}
+
+.feature p {
+  color: var(--muted);
+}
+
+@media (max-width: 720px) {
+  .feature {
+    grid-template-columns: 1fr;
+  }
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 14px;
+  margin: 16px 0;
+}
+
+.gallery figure {
+  margin: 0;
+}
+
+.gallery figcaption {
+  color: var(--muted);
+  font-size: 14px;
+  margin-top: 6px;
+}
+
+.new {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #0b0e13;
+  background: var(--accent);
+  border-radius: 999px;
+  padding: 1px 8px;
+  margin-left: 6px;
+  vertical-align: middle;
+}
+
+// Support and privacy
+
+.back {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.site-footer {
+  color: var(--muted);
+  font-size: 14px;
+  text-align: center;
+  margin-top: 40px;
+}

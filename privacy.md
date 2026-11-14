@@ -3,9 +3,11 @@ title: Phosphene Privacy Policy
 permalink: /privacy/
 ---
 
+<p class="back"><a href="{{ "/" | relative_url }}">← Phosphene</a></p>
+
 # Phosphene Privacy Policy
 
-Effective date: 22 October 2026
+Effective date: 15 November 2026
 
 Phosphene is a free macOS audio visualizer developed by Jan Vajda. It processes
 audio on your Mac to produce visuals. Phosphene does not send your audio,
@@ -20,12 +22,22 @@ from an app you choose. macOS asks for the “System Audio Recording” permissi
 the first time Phosphene starts listening.
 
 Audio samples are held briefly in memory for analysis and visualization. They
-are not saved as audio recordings. Phosphene does not capture your microphone
+are not saved as audio recordings. Phosphene does not record your microphone
 or your screen.
 
-You can stop listening in the Config menu, quit Phosphene, or revoke its capture
-permission in System Settings → Privacy & Security. Demo mode uses synthesized
-audio generated locally and does not listen to other apps.
+With All Sound, Phosphene hears everything your Mac plays, which can include
+the voices of people in a call or a video. To avoid this, Phosphene stops
+listening while any app uses a microphone, as during a call, and starts again
+after; you can turn this off in Settings. A call you only listen to, without a
+microphone, cannot be told apart: choose your music app in the Audio menu, or
+pause listening.
+
+Analyse Music (Audio → Analyse Music) names the instruments and voices it
+hears using Apple's built-in Sound Analysis, entirely on your Mac and only while
+Analyse Music is shown. Nothing it hears or recognises is saved or sent.
+
+You can stop listening in the Audio menu, quit Phosphene, or revoke its permission
+to hear the sound in System Settings → Privacy & Security.
 
 ## Files stored on your Mac
 
@@ -49,7 +61,7 @@ usage information under your Apple privacy settings; Apple controls that service
 
 Opening the online privacy policy, help, or repository launches your browser.
 GitHub and your browser may process connection information under their own
-privacy policies. Phosphene does not embed GitHub tracking or send it captured
+privacy policies. Phosphene does not embed GitHub tracking or send it any
 audio. If you voluntarily open a GitHub issue, the information you post is handled
 by GitHub and may be public. Do not include private recordings or sensitive data.
 
@@ -64,7 +76,3 @@ described here with an updated effective date.
 
 For privacy questions, [open an issue on GitHub](https://github.com/janosvajda/phosphene-site/issues).
 You can ask a general question without attaching personal information.
-
----
-
-© 2026 Jan Vajda. All rights reserved.

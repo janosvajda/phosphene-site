@@ -1,11 +1,11 @@
 ---
-title: Phosphene support & help
+title: Phosphene Help
 permalink: /support/
 ---
 
-# Phosphene Help
+<p class="back"><a href="{{ "/" | relative_url }}">← Phosphene</a></p>
 
-Online: <https://janosvajda.github.io/phosphene-site/support>
+# Phosphene Help
 
 Phosphene turns the sound your Mac plays into visuals that move with the music.
 It is free, with no account, advertising or tracking.
@@ -22,8 +22,11 @@ A Mac with Apple silicon and macOS 14.2 or newer.
    hear the sound. It never records the screen or the microphone, and it never
    saves audio.
 
-A white line across the window means Phosphene is listening. Visuals start as
-soon as sound arrives and change by themselves every 20 to 40 seconds.
+A white line across the window means Phosphene is listening. While no sound
+comes, the line slowly brightens and dims, and after a few seconds a short
+message under it says what to do, for example "Play some music on your Mac".
+Visuals start as soon as sound arrives and change by themselves every 20 to 40
+seconds.
 
 ## Keys
 
@@ -31,6 +34,7 @@ soon as sound arrives and change by themselves every 20 to 40 seconds.
 - L (⌘L): lock or unlock the current visual
 - F (⌃⌘F): full screen on or off
 - ⌘B: show the visual list
+- ⌥⌘A: Analyse Music
 - ⌘,: open Settings
 - Esc: close the visual list, or leave full screen
 - ⌘W or ⌘Q: close the window and quit
@@ -39,32 +43,69 @@ Every action is also in the menus.
 
 ## Choosing visuals
 
-Open the visual list with View → Show Visuals (⌘B), or move the pointer to the
-left edge of the window. It stays while the pointer is over it, and slides
-away by itself a few seconds after. Esc closes it at once. With Keyboard
-navigation turned on (System Settings → Keyboard) or VoiceOver, ⌘B also puts
-the keyboard in it: Tab moves through the list and Space ticks a box.
+While you move the mouse, a Visuals tab shows in the middle of the left edge
+of the window. Click it to open the visual list; while the list is open, the
+tab sits on its edge, and a second click closes it. A click on the picture
+also closes the list. You can also click the
+Visuals button at the top left of the window (click it again to close the
+list), or choose Visuals → Show Visuals (⌘B). The list stays while the pointer
+is over it, and slides away by itself a few seconds after. Esc closes it at
+once. With Keyboard navigation turned on (System Settings →
+Keyboard) or VoiceOver, ⌘B also puts the keyboard in it: Tab moves through the
+list and Space ticks a box.
 
 - The checkboxes choose which visuals take turns.
-- Click a name to show that visual right away, even if it is unchecked.
+- Click a name to show that visual right away, even if it is unchecked. With
+  no music playing, it starts as soon as sound arrives.
 - All Visuals checks every visual, or clears them all if all are checked.
 - If nothing is checked, Phosphene shows only the listening line.
+- When a new visual comes on, its name shows for a moment in the bottom-left
+  corner. Click it to open the visual list.
 
 ## Locking a visual
 
-Normally the visuals change by themselves. To keep the one on screen, press L
-or choose View → Lock Visual.
+Normally the visuals change by themselves. To keep the one on screen, press L,
+choose Visuals → Lock Visual, or click Lock at the top of the visual list. To
+play another visual and lock it at once, right-click its name in the visual
+list (or Control-click it) and choose Play and Lock; on the locked visual the
+same menu says Unlock.
 
 - While locked, the visual stays until you unlock it.
 - Next Visual (Space) still works: it moves to another visual, and the lock
   stays on the new one. Clicking a name in the visual list does the same.
 - "🔒 Locked" appears briefly in the top-right corner, and a padlock shows in
   the window title, in the visual list and next to the locked visual's name.
-- To unlock, press L again, choose View → Unlock Visual, or click the
-  "🔒 Locked" badge.
+- To unlock, press L again, choose Visuals → Unlock Visual, click Unlock at
+  the top of the visual list, or click the "🔒 Locked" badge.
 - The lock is remembered: when you open Phosphene again, it starts with the
   same visual as soon as music plays (if it is still checked in the visual
   list).
+
+## Analyse Music
+
+Analyse Music shows what Phosphene hears, in place of the visuals. Open it
+with Audio → Analyse Music (⌥⌘A), or with the Analyse Music button at the
+top of the visual list. It shows:
+
+- Instruments: the instruments and voices heard now, such as Vocals, Drums,
+  Electric guitar or Piano, with a line under each showing how sure macOS
+  is. A name appears about a second after the instrument starts and fades
+  soon after it stops. The names are approximate: in a dense mix an
+  instrument can be missed or named as a similar one, and unusual voices may
+  not be recognised as singing.
+- Spectrum: how loud each part of the sound is, from the deepest bass
+  (20 Hz) to the highest treble (20 kHz), with the recent peaks marked.
+- Sound: the music's tempo, loudness, beat, bass, mids and treble, drum
+  hits, the singer's note, brightness, how much the sound is changing, and
+  stereo width. The tempo appears after a few bars of music with drums.
+
+While it is shown, the visual on screen pauses. To go back, click Close in
+its top-right corner or Back to Visuals in the visual list, press Esc or
+Space, or click a visual in the list: the visual carries on where it was,
+still locked if it was locked.
+
+Instruments are recognised by macOS's built-in sound recognition, entirely on
+your Mac and only while Analyse Music is shown. No sound is saved or sent.
 
 ## Choosing what Phosphene listens to
 
@@ -148,23 +189,25 @@ time you open it.
 
 The visuals do not react to the music:
 
-1. Check that music is playing and that the window title says Listening.
-2. In the Audio menu, check that the right source is chosen (All Sound, or
+1. Read the message under the white line: it says what Phosphene is waiting
+   for, such as music in the chosen app or the permission to hear it.
+2. Check that music is playing and that the window title says Listening.
+3. In the Audio menu, check that the right source is chosen (All Sound, or
    the app that is playing).
-3. Choose Audio → Retry Listening.
-4. Open System Settings → Privacy & Security → Screen & System Audio Recording,
+4. Choose Audio → Retry Listening.
+5. Open System Settings → Privacy & Security → Screen & System Audio Recording,
    and make sure Phosphene is allowed under System Audio Recording Only.
    Quit and reopen Phosphene after allowing it.
 
 The window title says "Silent": the app plays, but only silence arrives. It
 may be muted (a muted video, or its volume at zero); unmute it. Otherwise,
-allow Phosphene as in step 4 above, then choose Audio → Retry Listening.
+allow Phosphene as in step 5 above, then choose Audio → Retry Listening.
 
 Some protected media, such as certain streaming video, cannot be heard by any
 app. That is a macOS limit, not a fault in Phosphene.
 
 macOS did not ask for permission: choose Audio → Audio Permission…, or allow
-Phosphene in System Settings as in step 4 above.
+Phosphene in System Settings as in step 5 above.
 
 The visuals flash too much: turn on Gentler effects in Settings. It reduces
 flashes and motion but cannot guarantee safety for photosensitive viewers.
@@ -189,10 +232,10 @@ private.
 ## Privacy
 
 Phosphene analyses sound only on your Mac and never saves or sends it. Read
-the full privacy policy at <https://janosvajda.github.io/phosphene-site/privacy>
-or, offline, in Help → Privacy Policy…
+the full [privacy policy]({{ "/privacy/" | relative_url }}) or, offline, in
+Help → Privacy Policy…
 
-More about Phosphene: <https://janosvajda.github.io/phosphene-site/>
+More about Phosphene: [the Phosphene home page]({{ "/" | relative_url }})
 
 ---
 
