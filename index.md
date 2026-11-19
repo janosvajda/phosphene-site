@@ -11,37 +11,37 @@ title: Phosphene
     <a class="button primary" href="{{ "/support/" | relative_url }}">Help</a>
     <a class="button" href="{{ "/privacy/" | relative_url }}">Privacy</a>
   </div>
-  <img class="shot hero-shot" src="{{ "/assets/screenshots/moon-tide.jpg" | relative_url }}" alt="Moon Tide: paper moths flying in a spiral into the moon" width="960" height="540">
+  <img class="shot hero-shot" src="{{ "/assets/screenshots/the-70s-never-come-back.jpg" | relative_url }}" alt="The 70s Never Come Back: a soft 70s tapestry of dreaming women, a whale, a cat, a rainbow and a deer" width="960" height="540">
 </div>
 
 I made Phosphene for myself, because I love listening to music and I like
 having something nice to look at while I do. Play a song in any app and
 Phosphene draws along with it: the bass, the drums, the voice, the quiet bits
-and the loud bits. There are 35 visuals to choose from, and every one of them,
+and the loud bits. There are 40 visuals to choose from, and every one of them,
 every drawing and every animation, is my own work. Some are built from maths,
 some are little cartoons I drew, and one keeps making up new pictures by itself.
 
 It's free. There's no account, no ads and no tracking, and your music never
 leaves your Mac.
 
-## What's new in 1.1
+## What's new in 1.2
 
 <div class="cards">
   <div class="card">
-    <h3>Three new visuals</h3>
-    <p>Autumn Tea has leaves in the wind, clouds, a bit of rain and a shy snail. In Moon Tide, paper moths fly into the moon. Solar is a glowing ball with flares.</p>
+    <h3>More windows</h3>
+    <p>Open up to four more windows of visuals, each showing its own visual or the same as the main window, and show one full screen on another screen or a projector.</p>
   </div>
   <div class="card">
-    <h3>Analyse Music</h3>
-    <p>Shows which instruments it hears, the spectrum, the tempo and more. It uses Apple's own sound recognition on your Mac, nothing online.</p>
+    <h3>Five new visuals</h3>
+    <p>Two painted tapestries, Cyber Folk Art and The 70s Never Come Back, plus Abandoned Seahorse, Automatized Hubris and Quark–Gluon Beauty Salon.</p>
   </div>
   <div class="card">
-    <h3>Easier to find the visuals</h3>
-    <p>Move the mouse and a Visuals tab shows on the left. There's also a Visuals button at the top of the window and a Visuals menu.</p>
+    <h3>New roses</h3>
+    <p>Rose Curve is drawn again from scratch: three velvet-red roses on a rose bush, each one blooming with its own drum.</p>
   </div>
   <div class="card">
-    <h3>Keep the one you like</h3>
-    <p>Lock a visual from the list so it stays, or right-click a name and choose Play and Lock.</p>
+    <h3>Closer to the music</h3>
+    <p>The visuals catch every drum hit, even fast rolls, keep moving in quiet passages, and keep playing while a menu or Settings is open.</p>
   </div>
 </div>
 
@@ -85,18 +85,31 @@ leaves your Mac.
 ## A few of the visuals
 
 <div class="gallery">
-  <figure><a href="{{ "/assets/screenshots/autumn-tea.jpg" | relative_url }}"><img class="shot" src="{{ "/assets/screenshots/autumn-tea.jpg" | relative_url }}" alt="Autumn Tea: leaves blowing across a watercolour sky, a snail on its branch" loading="lazy" width="960" height="540"></a><figcaption>Autumn Tea <span class="new">New</span></figcaption></figure>
-  <figure><a href="{{ "/assets/screenshots/solar.jpg" | relative_url }}"><img class="shot" src="{{ "/assets/screenshots/solar.jpg" | relative_url }}" alt="Solar: a glowing ball of dots with flares" loading="lazy" width="960" height="540"></a><figcaption>Solar <span class="new">New</span></figcaption></figure>
-  <figure><a href="{{ "/assets/screenshots/moon-tide.jpg" | relative_url }}"><img class="shot" src="{{ "/assets/screenshots/moon-tide.jpg" | relative_url }}" alt="Moon Tide: paper moths flying into the moon" loading="lazy" width="960" height="540"></a><figcaption>Moon Tide <span class="new">New</span></figcaption></figure>
-  <figure><a href="{{ "/assets/screenshots/supernova.jpg" | relative_url }}"><img class="shot" src="{{ "/assets/screenshots/supernova.jpg" | relative_url }}" alt="Supernova: a burst of particles" loading="lazy" width="960" height="540"></a><figcaption>Supernova</figcaption></figure>
+  <figure><a href="{{ "/assets/screenshots/the-70s-never-come-back.jpg" | relative_url }}"><img class="shot" src="{{ "/assets/screenshots/the-70s-never-come-back.jpg" | relative_url }}" alt="The 70s Never Come Back: dreaming women, a whale, a cat and a deer on a soft 70s tapestry" loading="lazy" width="960" height="540"></a><figcaption>The 70s Never Come Back <span class="new">New</span></figcaption></figure>
+  <figure><a href="{{ "/assets/screenshots/cyber-folk-art.jpg" | relative_url }}"><img class="shot" src="{{ "/assets/screenshots/cyber-folk-art.jpg" | relative_url }}" alt="Cyber Folk Art: owls, foxes, eyes, suns and moons on a woven tapestry, with ribbons across it" loading="lazy" width="960" height="540"></a><figcaption>Cyber Folk Art <span class="new">New</span></figcaption></figure>
+  <figure><a href="{{ "/assets/screenshots/rose-curve.jpg" | relative_url }}"><img class="shot" src="{{ "/assets/screenshots/rose-curve.jpg" | relative_url }}" alt="Rose Curve: three velvet-red roses on their thorny stems, with buds" loading="lazy" width="960" height="540"></a><figcaption>Rose Curve</figcaption></figure>
+  <figure><a href="{{ "/assets/screenshots/quark-gluon-beauty-salon.jpg" | relative_url }}"><img class="shot" src="{{ "/assets/screenshots/quark-gluon-beauty-salon.jpg" | relative_url }}" alt="Quark–Gluon Beauty Salon: glowing balls of swirling smoke, each with three bright quarks" loading="lazy" width="960" height="540"></a><figcaption>Quark–Gluon Beauty Salon <span class="new">New</span></figcaption></figure>
+  <figure><a href="{{ "/assets/screenshots/abandoned-seahorse.jpg" | relative_url }}"><img class="shot" src="{{ "/assets/screenshots/abandoned-seahorse.jpg" | relative_url }}" alt="Abandoned Seahorse: two spirals of paper discs joined by a glowing line of lace" loading="lazy" width="960" height="540"></a><figcaption>Abandoned Seahorse <span class="new">New</span></figcaption></figure>
+  <figure><a href="{{ "/assets/screenshots/automatized-hubris.jpg" | relative_url }}"><img class="shot" src="{{ "/assets/screenshots/automatized-hubris.jpg" | relative_url }}" alt="Automatized Hubris: a sculpture of brightly coloured blocks over a grid of light" loading="lazy" width="960" height="540"></a><figcaption>Automatized Hubris <span class="new">New</span></figcaption></figure>
+  <figure><a href="{{ "/assets/screenshots/autumn-tea.jpg" | relative_url }}"><img class="shot" src="{{ "/assets/screenshots/autumn-tea.jpg" | relative_url }}" alt="Autumn Tea: leaves blowing across a watercolour sky, a snail on its branch" loading="lazy" width="960" height="540"></a><figcaption>Autumn Tea</figcaption></figure>
+  <figure><a href="{{ "/assets/screenshots/moon-tide.jpg" | relative_url }}"><img class="shot" src="{{ "/assets/screenshots/moon-tide.jpg" | relative_url }}" alt="Moon Tide: paper moths flying into the moon" loading="lazy" width="960" height="540"></a><figcaption>Moon Tide</figcaption></figure>
   <figure><a href="{{ "/assets/screenshots/comet-of-friends.jpg" | relative_url }}"><img class="shot" src="{{ "/assets/screenshots/comet-of-friends.jpg" | relative_url }}" alt="Comet of Friends: a cat and an alien dancing" loading="lazy" width="960" height="540"></a><figcaption>Comet of Friends</figcaption></figure>
-  <figure><a href="{{ "/assets/screenshots/galaxy.jpg" | relative_url }}"><img class="shot" src="{{ "/assets/screenshots/galaxy.jpg" | relative_url }}" alt="Galaxy: a spiral of stars" loading="lazy" width="960" height="540"></a><figcaption>Galaxy</figcaption></figure>
-  <figure><a href="{{ "/assets/screenshots/planet-of-lizards.jpg" | relative_url }}"><img class="shot" src="{{ "/assets/screenshots/planet-of-lizards.jpg" | relative_url }}" alt="Planet of Lizards: a cartoon planet" loading="lazy" width="960" height="540"></a><figcaption>Planet of Lizards</figcaption></figure>
-  <figure><a href="{{ "/assets/screenshots/flower.jpg" | relative_url }}"><img class="shot" src="{{ "/assets/screenshots/flower.jpg" | relative_url }}" alt="Flower: petals opening with the music" loading="lazy" width="960" height="540"></a><figcaption>Flower</figcaption></figure>
-  <figure><a href="{{ "/assets/screenshots/crystal.jpg" | relative_url }}"><img class="shot" src="{{ "/assets/screenshots/crystal.jpg" | relative_url }}" alt="Crystal: shapes turning with the sound" loading="lazy" width="960" height="540"></a><figcaption>Crystal</figcaption></figure>
 </div>
 
 ## Version history
+
+### 1.2 (November 2026)
+
+- More windows: open up to four more windows of visuals, each showing its
+  own visual or the same as the main window.
+- Five new visuals: Abandoned Seahorse, Automatized Hubris, Cyber Folk Art,
+  Quark–Gluon Beauty Salon and The 70s Never Come Back. That makes 40.
+- Rose Curve is rebuilt: three velvet-red roses on a rose bush.
+- The visuals follow the music more closely, catching every drum hit, and
+  keep playing while a menu, a dialog or Settings is open.
+- Smoother frames, and lighter work for several visuals.
+- Pause during calls is more reliable.
+- Small fixes and UI polish.
 
 ### 1.1 (November 2026)
 

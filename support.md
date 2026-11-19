@@ -35,9 +35,11 @@ seconds.
 - F (⌃⌘F): full screen on or off
 - ⌘B: show the visual list
 - ⌥⌘A: Analyse Music
+- ⇧⌘N: new window showing the same visual as the main window
 - ⌘,: open Settings
 - Esc: close the visual list, or leave full screen
-- ⌘W or ⌘Q: close the window and quit
+- ⌘W: close the front window (closing the main window quits)
+- ⌘Q: quit
 
 Every action is also in the menus.
 
@@ -80,6 +82,26 @@ same menu says Unlock.
 - The lock is remembered: when you open Phosphene again, it starts with the
   same visual as soon as music plays (if it is still checked in the visual
   list).
+
+## More windows
+
+You can open up to four more windows of visuals. Choose Window → New Window,
+then the visual the window should show: Same as Main Window (⇧⌘N) follows
+whatever the main window shows, or pick any visual for it. To change a
+window's visual later, right-click the picture (or Control-click it) and
+choose another.
+
+- Move and size it like any window, or drag it to another screen or a
+  projector and show it full screen there.
+- To show it full screen, click its green button, choose View → Enter Full
+  Screen, or press F while it is in front. Esc leaves full screen.
+- Close it with its close button or ⌘W.
+- With four windows open, New Window is greyed out until you close one.
+- These windows are not kept when you quit: next time Phosphene opens with
+  its main window only.
+- Each window with a visual of its own makes your Mac work about as hard as
+  another Phosphene. Windows showing the same visual as the main window cost
+  almost nothing.
 
 ## Analyse Music
 
