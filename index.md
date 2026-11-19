@@ -11,7 +11,7 @@ title: Phosphene
     <a class="button primary" href="{{ "/support/" | relative_url }}">Help</a>
     <a class="button" href="{{ "/privacy/" | relative_url }}">Privacy</a>
   </div>
-  <img class="shot hero-shot" src="{{ "/assets/screenshots/the-70s-never-come-back.jpg" | relative_url }}" alt="The 70s Never Come Back: a soft 70s tapestry of dreaming women, a whale, a cat, a rainbow and a deer" width="960" height="540">
+  <img class="shot hero-shot" src="{{ "/assets/screenshots/cyber-folk-art.jpg" | relative_url }}" alt="Cyber Folk Art: owls, foxes, eyes, suns and moons on a woven tapestry, with ribbons across it" width="960" height="540">
 </div>
 
 I made Phosphene for myself, because I love listening to music and I like
