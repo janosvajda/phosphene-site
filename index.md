@@ -17,9 +17,10 @@ title: Phosphene
 I made Phosphene for myself, because I love listening to music and I like
 having something nice to look at while I do. Play a song in any app and
 Phosphene draws along with it: the bass, the drums, the voice, the quiet bits
-and the loud bits. There are 40 visuals to choose from, and every one of them,
-every drawing and every animation, is my own work. Some are built from maths,
-some are little cartoons I drew, and one keeps making up new pictures by itself.
+and the loud bits. There are 40 visuals to choose from, and all of them are my
+own artwork: every drawing, every painting and every animation. Some are built
+from maths, some are little cartoons and painted tapestries I drew, and one
+keeps making up new pictures by itself.
 
 It's free. There's no account, no ads and no tracking, and your music never
 leaves your Mac.
