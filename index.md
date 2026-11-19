@@ -8,7 +8,8 @@ title: Phosphene
   <p class="tagline">Visuals for the music you play on your Mac</p>
   <p class="facts">Free. For Macs with Apple silicon and macOS 14.2 or newer.</p>
   <div class="buttons">
-    <a class="button primary" href="{{ "/support/" | relative_url }}">Help</a>
+    <a class="button primary" href="https://apps.apple.com/app/id6825656686">Get it on the Mac App Store</a>
+    <a class="button" href="{{ "/support/" | relative_url }}">Help</a>
     <a class="button" href="{{ "/privacy/" | relative_url }}">Privacy</a>
   </div>
   <img class="shot hero-shot" src="{{ "/assets/screenshots/cyber-folk-art.jpg" | relative_url }}" alt="Cyber Folk Art: owls, foxes, eyes, suns and moons on a woven tapestry, with ribbons across it" width="960" height="540">
